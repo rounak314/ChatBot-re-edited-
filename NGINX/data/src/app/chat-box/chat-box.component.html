@@ -1,0 +1,9 @@
+<div class="chatbox">
+  <div class="chatlogs" #scrollMe [scrollTop] = "scrollMe.scrollHeight">
+      <div class="chat user" align = "left">
+            <p class="chat-message" id="bot-message">Hey, I'm here to assist you with your queries. How may I help you?</p> 
+      </div>
+      <ng-template appAddComponent></ng-template>
+  </div> 
+    <app-message-box></app-message-box>
+</div>

@@ -1,0 +1,545 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "ask_identity",
+        "text": "who are you"
+      },
+      {
+        "intent": "ask_identity",
+        "text": "what is your name"
+      },
+      {
+        "intent": "ask_identity",
+        "text": "how should i address you"
+      },
+      {
+        "intent": "ask_identity",
+        "text": "may i know your name"
+      },
+      {
+        "intent": "ask_identity",
+        "text": "who designed you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiiiiiiiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyy"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "property_search",
+        "text": "show me properties"
+      },
+      {
+        "intent": "property_search",
+        "text": "show me flats"
+      },
+      {
+        "intent": "property_search",
+        "text": "show me apartments"
+      },
+      {
+        "intent": "property_search",
+        "text": "show me rooms"
+      },
+      {
+        "intent": "property_search",
+        "text": "properties"
+      },
+      {
+        "intent": "property_search",
+        "text": "flats"
+      },
+      {
+        "intent": "property_search",
+        "text": "rooms"
+      },
+      {
+        "intent": "property_search",
+        "text": "apartments"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1bhk"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1BHK"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 BHK"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bhk"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bedroom"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 BHK"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bhk"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bedroom"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 BHK"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bhk"
+      },
+      {
+        "intent": "1bhk",
+        "text": "1 bedroom"
+      },
+      {
+        "intent": "1bhk",
+        "text": "single room"
+      },
+      {
+        "intent": "1bhk",
+        "text": "one bedroom"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of 1bhk"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of 1BHK"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of 1 BHK"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of 1 bhk"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of 1 bedroom"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of single room"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "price of one bedroom"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "1bhk price"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "1"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "one"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "cheapest"
+      },
+      {
+        "intent": "price1bhk",
+        "text": "cheap"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of 2bhk"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of 2BHK"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of 2 BHK"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of 2 bhk"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of 2 bedroom"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of double room"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "price of two bedroom"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "2bhk price"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "2"
+      },
+      {
+        "intent": "price2bhk",
+        "text": "two"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of 3bhk"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of 3BHK"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of 3 BHK"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of 3 bhk"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of 3 bedroom"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of triple room"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "price of three bedroom"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "3bhk price"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "3"
+      },
+      {
+        "intent": "price3bhk",
+        "text": "three"
+      },
+      {
+        "intent": "2bhk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2bhk",
+            "entity": "roomType"
+          }
+        ],
+        "text": "2bhk"
+      },
+      {
+        "intent": "2bhk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "2BHK",
+            "entity": "roomType"
+          }
+        ],
+        "text": "2BHK"
+      },
+      {
+        "intent": "2bhk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "2 BHK",
+            "entity": "roomType"
+          }
+        ],
+        "text": "2 BHK"
+      },
+      {
+        "intent": "2bhk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "2 bhk",
+            "entity": "roomType"
+          }
+        ],
+        "text": "2 bhk"
+      },
+      {
+        "intent": "2bhk",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "2 bedroom",
+            "entity": "roomType"
+          }
+        ],
+        "text": "2 bedroom"
+      },
+      {
+        "intent": "2bhk",
+        "text": "double room"
+      },
+      {
+        "intent": "2bhk",
+        "text": "two bedroom"
+      },
+      {
+        "intent": "3bhk",
+        "text": "3bhk"
+      },
+      {
+        "intent": "3bhk",
+        "text": "3BHK"
+      },
+      {
+        "intent": "3bhk",
+        "text": "3 BHK"
+      },
+      {
+        "intent": "3bhk",
+        "text": "3 bhk"
+      },
+      {
+        "intent": "3bhk",
+        "text": "3 bedroom"
+      },
+      {
+        "intent": "3bhk",
+        "text": "triple room"
+      },
+      {
+        "intent": "3bhk",
+        "text": "three bedroom"
+      },
+      {
+        "intent": "3bhk",
+        "text": "three room"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "size of 1bhk"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "1bhk size"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "1bhk dimension"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "dimension of 1bhk"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "square feet of 1bhk"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "1bhk square feet"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "sqft of 1bhk"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "1bhk sqft"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "size"
+      },
+      {
+        "intent": "dimension1bhk",
+        "text": "dimension"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "size of 2bhk"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "2bhk size"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "2bhk dimension"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "dimension of 2bhk"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "square feet of 2bhk"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "2bhk square feet"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "sqft of 2bhk"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "2bhk sqft"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "size"
+      },
+      {
+        "intent": "dimension2bhk",
+        "text": "dimension"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "size of 3bhk"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "3bhk size"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "3bhk dimension"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "dimension of 3bhk"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "square feet of 3bhk"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "3bhk square feet"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "sqft of 3bhk"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "3bhk sqft"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "size"
+      },
+      {
+        "intent": "dimension3bhk",
+        "text": "dimension"
+      },
+      {
+        "intent": "details1bhk",
+        "text": "details of 1bhk"
+      },
+      {
+        "intent": "details1bhk",
+        "text": "1bhk details"
+      },
+      {
+        "intent": "details2bhk",
+        "text": "details of 2bhk"
+      },
+      {
+        "intent": "details2bhk",
+        "text": "2bhk details"
+      },
+      {
+        "intent": "details3bhk",
+        "text": "details of 3bhk"
+      },
+      {
+        "intent": "details3bhk",
+        "text": "3bhk details"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

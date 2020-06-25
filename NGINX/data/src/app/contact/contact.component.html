@@ -1,0 +1,19 @@
+<div id="viewButton" (click) = "DisplayForm()" [hidden] = "buttonElem">
+		<button type="button" class="btn btn-primary">Click to open contact form</button>
+</div>
+<div class="container"  [hidden] = "contactElem">
+    <i class="fa fa-times" id="crossInc" (click) = "HideForm()"></i>
+    <h2>Your personal details are safe with us</h2>
+    <div id="phone">
+        <i class="fa fa-phone-square" id="phoneIc"></i>
+        <input type="tel" name="phone" ng-pattern="/^\d{0,9}(\.\d{1,9})?$/" placeholder="10 digit mobile number" [(ngModel)] = "phone">
+        <span  ng-show="phone.$error.pattern">Not valid number!</span>
+    </div>
+    <br>
+    <div id="email">
+        <i class="fa fa-envelope" id="emailIc"></i>
+        <input type="email" name="mail" placeholder="abc@xyz.com" [(ngModel)] = "email">
+    </div>
+    <br>
+        <input type="submit" name="submit" value="Submit" id="submitButton" (click) = "sendDetails(phone,email)">
+</div>

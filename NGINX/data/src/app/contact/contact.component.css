@@ -1,0 +1,46 @@
+#phoneIc{
+	font-size: 30px; 
+	float: left; 
+	margin-right: 3px;
+	color: #1157cb;
+}
+
+#phone{
+	margin-bottom: 2px;
+}
+#emailIc{
+	font-size: 28px; 
+	float: left; 
+	margin-right: 3px;
+	color: #1157cb;
+}
+h2{
+	color: #1157cb;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+
+}
+.container{
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 5px;
+	width: 80%;
+}
+#crossInc{
+	float: right;
+	color: #1157cb;
+}
+#submitButton{
+	border: 1px solid #1157cb;
+	color: #1157cb;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 10px;
+	transition: 600ms;
+	background: #fff;
+}
+#submitButton:hover{
+	background: #1157cb;
+	color: #fff;
+}

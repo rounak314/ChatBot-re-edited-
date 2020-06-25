@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/rounak/ChatBot/RasaChatBot/Application/training_files/../models/default/ner_model/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/rounak/ChatBot/RasaChatBot/Application/training_files/../models/default/ner_model/component_5_EmbeddingIntentClassifier.ckpt"

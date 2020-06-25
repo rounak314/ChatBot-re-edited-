@@ -1,0 +1,107 @@
+%YAML 1.1
+---
+actions:
+- utter_goodbye
+- utter_affirm
+- utter_greet
+- utter_intro
+- utter_property_search
+- utter_notavailable
+- utter_1bhk
+- utter_2bhk
+- utter_3bhk
+- utter_contact
+- utter_price1bhk
+- utter_price2bhk
+- utter_price3bhk
+- utter_details1bhk
+- utter_details2bhk
+- utter_details3bhk
+- utter_dimension1bhk
+- utter_dimension2bhk
+- utter_dimension3bhk
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- greet:
+    use_entities: true
+- intro:
+    use_entities: true
+- property_search:
+    use_entities: true
+- 1bhk:
+    use_entities: true
+- 2bhk:
+    use_entities: true
+- 3bhk:
+    use_entities: true
+- price1bhk:
+    use_entities: true
+- price2bhk:
+    use_entities: true
+- price3bhk:
+    use_entities: true
+- details1bhk:
+    use_entities: true
+- details2bhk:
+    use_entities: true
+- details3bhk:
+    use_entities: true
+- dimension1bhk:
+    use_entities: true
+- dimension2bhk:
+    use_entities: true
+- dimension3bhk:
+    use_entities: true
+slots: {}
+templates:
+  utter_1bhk:
+  - text: We have single bedroom hall kitchen options available in an affordable range
+      comprising of a balcony.
+  utter_2bhk:
+  - text: We have a wide range of two bedroom apartments with two bathrooms, 2 balconies
+      along with a parking slot.
+  utter_3bhk:
+  - text: We have attractive 3 BHK flats for you with 3 bathrooms and 2 balconies
+      along with a private parking space.
+  utter_affirm:
+  - text: Thank you for the confirmation
+  utter_contact:
+  - text: Please share your contact details so that I can arrange a call back to you
+      from our side for further discussions.
+  utter_details1bhk:
+  - text: details,1BHK
+  utter_details2bhk:
+  - text: details,2BHK
+  utter_details3bhk:
+  - text: details,3BHK
+  utter_dimension1bhk:
+  - text: dimension,1BHK
+  utter_dimension2bhk:
+  - text: dimension,2BHK
+  utter_dimension3bhk:
+  - text: dimension,3BHK
+  utter_goodbye:
+  - text: Byee, see you soon
+  utter_greet:
+  - text: Hello, a warm welcome to you! how can I help you?
+  - text: How may I help you!
+  utter_intro:
+  - text: I'm a Chatbot and I'm being designed by Rounak
+  utter_notavailable:
+  - text: Sorry, I cannot understand!!
+  utter_price1bhk:
+  - text: price,1BHK
+  utter_price2bhk:
+  - text: price,2BHK
+  utter_price3bhk:
+  - text: price,3BHK
+  utter_property_search:
+  - text: Sure many properties are available for you at Bangalore. Which category
+      are you searching for?

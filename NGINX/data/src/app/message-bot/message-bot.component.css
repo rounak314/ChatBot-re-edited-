@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.chat {
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes leftFadeInOut {
+  0% {
+    position: absolute;
+    left: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    left: 1rem;
+    opacity: 1;
+  }
+}
+
+.chat .chat-message {
+	width: 80%;
+	padding: 10px;
+	margin: 5px 10px 0;
+	border-radius: 15px 15px 15px 0px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	font-size: 15px;
+	/* text-align: left; */
+
+}
+.user .chat-message {
+	 background: #72a2f3;
+	 border: 3px #1157cb solid;
+	 /* text-align: left; */
+	 display: inline-block;
+}

@@ -1,0 +1,16 @@
+
+<div class="chat-form">
+      <input type='text' id="MsgArea" [(ngModel)] = "InputMsg" (keyup.enter) = "MessageSend(InputMsg)" placeholder="Please enter your query...." >
+      <div id="recorder">
+            <i class="fa fa-microphone fa-lg" *ngIf="!isRecording && !blobUrl" (click)="startRecording()"></i>
+            <i class="fa fa-stop fa-lg"  *ngIf="isRecording && !blobUrl" (click)="stopRecording()"></i>
+           <i class="fa fa-trash fa-lg" *ngIf="!isRecording && blobUrl" (click)="clearRecordedData()"></i>
+            <!--  <div *ngIf="isRecording && !blobUrl"> {{recordedTime}} </div>
+            <div>
+                  <audio *ngIf="!isRecording && blobUrl"  controls>
+                  <source [src]="blobUrl" type="audio/webm">
+                  </audio>
+            </div> -->
+      </div>  
+      <i class="fa fa-arrow-circle-right fa-2x" (click)="MessageSend(InputMsg)" id="rigth-arrow"></i>
+</div>

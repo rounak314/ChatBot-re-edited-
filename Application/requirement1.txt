@@ -1,0 +1,11 @@
+falcon
+gunicorn
+numpy
+pillow
+scikit-learn
+ipython
+ipython-genutils
+websocket-client
+sklearn_crfsuite
+speechrecognition
+pymongo

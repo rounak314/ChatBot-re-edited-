@@ -1,0 +1,94 @@
+.chat-form {
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+    position: static;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.chat-form textarea::-webkit-scrollbar{
+	width: 10px;
+}
+.chat-form textarea::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: lightgrey;
+}
+input {
+	background: #fff;
+	width: 85%;
+	height: 25px;
+	border: 0px solid #e6943d;
+	border-radius: 35px;
+	resize: none;
+	font-size: 15px;
+	background: #c5c8ce;
+	color: #000 ;
+	padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* padding: 8px; */
+}
+input:hover {
+	box-shadow: #cfcfcf;
+	font-size: 15px;
+	transition-delay: 30ms;
+}
+.fa-arrow-circle-right {
+	border: none;
+	color: #72a2f3;
+	cursor: pointer;
+	margin-top: 12px;
+	font-size: 500px;
+}
+
+.fa-arrow-circle-right:hover {
+	transition-delay: 10ms;
+	border: none;
+	height: 25px;
+	width: 25px;
+}
+#recorder{
+	position:relative;	
+	margin-top: 0px;
+	top: -457px;
+	left: 21px;
+}
+.fa-microphone {
+	color:#72a2f3;
+   float: right;
+   position: sticky;
+   top: 0;
+   border-radius: 100px;
+   padding:5px;
+   background: #fff;
+   border: 2px #1157cb solid;
+   cursor: pointer;
+}
+.fa-stop {
+	color:#f08500;
+   float: right;
+   position: sticky;
+   top: 0;
+   border-radius: 100px;
+   padding:5px;
+   background: #fff;
+   cursor: pointer;
+   border: 2px #f08500 solid;
+}
+.fa-trash {
+	color: #d63200;
+   float: right;
+   position: sticky;
+   top: 0;
+   border-radius: 100px;
+   padding:5px;
+   background: #fff;
+   cursor: pointer;
+   border: 2px #d63200 solid;
+}
+#rigth-arrow{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
